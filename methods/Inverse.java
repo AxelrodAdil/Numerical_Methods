@@ -6,7 +6,6 @@ import java.util.ArrayList;
 
 /**
  * @author Adil
- * @created 14.10.2021 - 0:58
  */
 
 public class Inverse {
@@ -53,9 +52,6 @@ public class Inverse {
         System.out.println("\n");
     }
 
-<<<<<<< HEAD:Numerical_Methods/matrix/main.java
-    public static void main(String[] args) {
-=======
     static void matrixMulti(double[][]a, double[][]b) {
         double[][] resultMatrix = new double[a.length][b[0].length];
         for (int i = 0; i < a.length; i++) {
@@ -77,7 +73,6 @@ public class Inverse {
 
     static void doMethod() {
         System.out.println("Main method");
->>>>>>> 58094f1 (NM):Numerical_Methods/Inverse.java
         double[][] matrix = new double[][]{
                 {14.4, -5.3, 14.3, -12.7},
                 {23.4, -14.2, -5.4, 2.1},
@@ -124,15 +119,12 @@ public class Inverse {
         }
         System.out.println("\n---------------------------------------------------\n\nInverse Matrix after round: ");
         printArrayList(arrayList_1);
-<<<<<<< HEAD:Numerical_Methods/matrix/main.java
-=======
 
         for_the_sake_of_beauty();
     }
 
     static void for_the_sake_of_beauty(){
         System.out.println("\n---------------------------------------------------\n");
->>>>>>> 58094f1 (NM):Numerical_Methods/Inverse.java
     }
 
     static double[][] createMatrix(ArrayList<Double> arrayList){

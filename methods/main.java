@@ -6,5 +6,6 @@ public class main {
         //Gaus.doMethod();
         //Cholesky.doMethod();
         Iterative.doMethod();
+        Seidel.doMethod();
     }
 }
