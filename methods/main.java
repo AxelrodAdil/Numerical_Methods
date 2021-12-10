@@ -18,10 +18,10 @@ public class main {
         //Newtons_method_tangents.doMethod();
         //Newton_Raphson_Method.doMethod();
 
-        //function_Newton_interpolation.doMethod();
-        //function_Lagrange_interpolation.doMethod();
+        function_Newton_interpolation.doMethod();
+        function_Lagrange_interpolation.doMethod();
         Simpson_rule.doMethod();
-        //Integral.doMethod();
-        //Derivative_Lagrange.doMethod();
+        Integral.doMethod();
+        //MonteCarlo.doMethod();  public static void main
     }
 }
